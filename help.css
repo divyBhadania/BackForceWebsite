@@ -1,0 +1,44 @@
+#help {
+    height: 412px;
+    background: #032D60 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* align-content: center; */
+    align-items: center;
+}
+
+#help>.heading {
+    width: 350px;
+    height: fit-content;
+    text-align: left;
+    font-size: 80px;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+}
+
+#help>.details {
+    display: flex;
+    flex-direction: column;
+}
+
+#help>.details>.input {
+    width: 384px;
+    height: 50px;
+}
+
+#help>div>#message2 {
+    width: 384px;
+    height: 138px;
+    resize: none;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+#help>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}

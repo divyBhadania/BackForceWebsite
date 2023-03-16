@@ -1,0 +1,30 @@
+#support-product>.heading {
+    text-align: center;
+    font: normal normal 300 46px/60px Lato;
+    letter-spacing: 0px;
+    color: #032D60;
+}
+
+#support-product>.product {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#support-product>.product>.box {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #d1cece;
+    color: #032D60;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+}
+
+#support-product>.product>.box:hover{
+    background: #0B5CAB 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+}

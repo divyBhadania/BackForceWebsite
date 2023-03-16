@@ -1,0 +1,31 @@
+#company .main {
+    width: 1400px;
+    height: 310px;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 60px #DDE7FB8F;
+}
+
+#company .main .heading {
+    text-align: center;
+    font: normal normal 900 36px/102px Lato;
+    letter-spacing: 0.72px;
+    color: #032D60;
+    opacity: 1;
+}
+
+#company .main .sub1 {
+    text-align: center;
+    font: normal normal normal 17px/28px Lato;
+    letter-spacing: 0.34px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+#company .main .logo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}

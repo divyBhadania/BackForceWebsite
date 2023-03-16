@@ -1,0 +1,88 @@
+#office-address {
+    height: 400px;
+    padding-top: 139px;
+    background: transparent linear-gradient(180deg, #DEEFFF 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-image: url('assest/Vector\ Smart\ Object.svg');
+    background-size: 1023px 523px;
+    background-position: center;
+}
+
+#office-address>.country {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+}
+
+#office-address>.country>.box {
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;  
+    gap: 20px;
+}
+
+#office-address>.contact{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#office-address>.contact>.heading {
+    font-size: 32px;
+    color: #032D60;
+}
+
+#office-address>.contact> .space{
+    flex-basis: 30%;
+}
+
+#office-address>.contact > .number{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap : 10px;
+}
+
+#office-address>.contact > .email {
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    margin-left: 30px;
+}
+
+#office-address>.contact .sub2{
+    font: normal normal 900 22px/24px Lato;
+}
+
+.email > .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #0B5CAB;
+}
+
+#office-address > .footer{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    gap : 30px;
+    justify-content: space-between;
+}
+
+#office-address > .footer > .social{
+    margin-left: auto;
+}
+
+.copyright{
+    width: fit-content;
+    margin: auto;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#nav {
+    display: flex;
+    width: 90%;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: auto;
+    align-items: center;
+}
+
+.gradient {
+    background: transparent linear-gradient(90deg, #FFFFFF 0%, #DEEFFF 100%) 0% 0% no-repeat padding-box;
+}
+
+.ul-mark::before {
+    content: "";
+    display: inline-block;
+    background-size: 20px 20px;
+    margin-right: 20px;
+    background-image: url("assest/Vector\ Smart\ Object.png");
+    width: 20px;
+    height: 20px;
+}
+
+.ul-mark {
+    font-size: 24px;
+}
+
+#solution-email {
+    display: flex;
+    position: relative;
+    top : -100px;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 200px;
+    width: 1400px;
+    background: #0B5CAB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 50px 60px #3B4F781A;
+    opacity: 1;
+    gap: 10px;
+}
+
+#solution-email>.email {
+    font-size: 46px;
+    text-align: center;
+    text-decoration: underline;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#solution-email>.sub1 {
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+}
